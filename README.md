@@ -8,7 +8,7 @@
 
 ## 🏫 About the Institution
 
-Annai Velankanni Matriculation Higher Secondary School is a premier minority educational institution in Sivagamipuram, Keelapavoor Block, Pavoorchatram, Tenkasi District, recognized by the Directorate of Matriculation Schools, Government of Tamil Nadu. Overlooking the scenic Western Ghats, the institution is led by **Rev. Sr. Sonia, Principal**, and provides values-based, English-medium education to over 1,240 students across 39 classrooms and 9 specialized science and IT laboratories.
+Annai Velankanni Matriculation Higher Secondary School is a premier minority educational institution in Sivagamipuram, Keelapavoor Block, Pavoorchatram, Tenkasi District, recognized by the Directorate of Matriculation Schools, Government of Tamil Nadu. Overlooking the scenic Western Ghats, the institution is governed under the visionary stewardship of **Rev. Sr. Benjamin, Correspondent** and led academically by **Rev. Sr. Sonia, Principal**, providing values-based, English-medium education to over 1,240 students across 39 classrooms and 9 specialized science and IT laboratories.
 
 ---
 
@@ -17,7 +17,9 @@ Annai Velankanni Matriculation Higher Secondary School is a premier minority edu
 - **100% Board Examination Pass Results:** Sustained academic distinction in both Class 10 (SSLC) and Class 12 (+2 Higher Secondary).
   - *10th SSLC Toppers:* K. Santhosh Kumar (489/500), M. Surya (486/500), L. Renixen (484/500) with 3 Mathematics centums and 2 Science centums.
   - *12th (+2) Toppers:* M. Viraja Kishori (583/600), S. Sajanya (575/600), S. Harini (568/600).
-- **Leadership Under Rev. Sr. Sonia:** Motherly care, spiritual guidance, and Vidyarambham student initiation.
+- **Institutional Leadership:**
+  - **Rev. Sr. Benjamin, Correspondent:** Governing administration, spiritual stewardship, and infrastructure management.
+  - **Rev. Sr. Sonia, Principal:** Academic administration, maternal care, and student mentorship.
 - **Official Student Handbook & Discipline Norms:** 16 binding student regulations including:
   - English-only campus communication environment
   - Campus timings (9:00 AM – 4:00 PM, morning arrival before 8:50 AM)
