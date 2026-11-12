@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>About Us | Annai Velankanni Matriculation Higher Secondary School</title>
+  <meta name="description" content="Learn about Annai Velankanni Matriculation Higher Secondary School, Pavoorchatram. Established in 2004 with a vision for holistic education, moral discipline, and academic distinction.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            skybrand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              200: '#bae6fd',
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              700: '#0369a1',
+              800: '#075985',
+              900: '#0c4a6e',
+              950: '#082f49',
+            },
+            sun: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Outfit"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-sky-200 selection:text-sky-950">
+
+  <!-- ================= TOP ANNOUNCEMENT BAR ================= -->
+  <div class="bg-skybrand-950 text-white text-xs border-b border-sky-800/40 py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="bg-gradient-to-r from-sun-500 to-amber-500 text-slate-950 font-extrabold px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider">
+          Admissions 2025–26
+        </span>
+        <span class="text-sky-100 font-medium">Pre-KG to Class XI Admissions Open • Call <a href="tel:+919965308401" class="text-sun-400 font-bold hover:underline">+91 99653 08401</a></span>
+      </div>
+      <div class="hidden sm:flex items-center gap-4 text-xs text-sky-200">
+        <a href="https://maps.app.goo.gl/pSm4ygHX89vAKJ659" target="_blank" rel="noopener" class="hover:text-white flex items-center gap-1.5 transition">
+          <i class="fas fa-location-dot text-sun-400"></i> Pavoorchatram, Tenkasi
+        </a>
+        <span>•</span>
+        <span class="text-sky-300 font-semibold">UDISE: 33290704117</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FLOATING ISLAND NAVIGATION ================= -->
+  <header class="sticky top-2 sm:top-4 z-40 px-3 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div id="mainHeader" class="nav-island rounded-2xl px-4 sm:px-6 py-2.5 transition-all duration-300">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <img src="assets/images/logo.svg" alt="Annai Velankanni School Crest" class="w-11 h-11 sm:w-13 sm:h-13 object-contain drop-shadow transition-transform duration-300 group-hover:scale-105 flex-shrink-0">
+          <div class="flex flex-col">
+            <span class="font-display font-extrabold text-sm sm:text-lg text-skybrand-950 tracking-tight leading-tight">
+              ANNAI VELANKANNI
+            </span>
+            <span class="text-[10px] sm:text-xs font-bold text-skybrand-700 tracking-wide uppercase">
+              Matric. Hr. Sec. School • Pavoorchatram
+            </span>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center space-x-1">
+          <a href="index.html" class="nav-link px-3.5 py-2 text-xs xl:text-sm font-bold text-slate-700 hover:text-skybrand-600 rounded-xl transition">Home</a>
+          <a href="about.html" class="nav-link px-3.5 py-2 text-xs xl:text-sm font-bold text-slate-700 hover:text-skybrand-600 rounded-xl transition">About Us</a>
+          <a href="academics.html" class="nav-link px-3.5 py-2 text-xs xl:text-sm font-bold text-slate-700 hover:text-skybrand-600 rounded-xl transition">Academics</a>
+          <a href="facilities.html" class="nav-link px-3.5 py-2 text-xs xl:text-sm font-bold text-slate-700 hover:text-skybrand-600 rounded-xl transition">Facilities</a>
+          <a href="admissions.html" class="nav-link px-3.5 py-2 text-xs xl:text-sm font-bold text-slate-700 hover:text-skybrand-600 rounded-xl transition">Admissions</a>
+          <a href="gallery.html" class="nav-link px-3.5 py-2 text-xs xl:text-sm font-bold text-slate-700 hover:text-skybrand-600 rounded-xl transition">Gallery</a>
+          <a href="contact.html" class="nav-link px-3.5 py-2 text-xs xl:text-sm font-bold text-slate-700 hover:text-skybrand-600 rounded-xl transition">Contact</a>
+        </nav>
+
+        <div class="hidden sm:flex items-center gap-2.5">
+          <button data-modal-target="admissionModal" class="btn-glow-sky px-4 py-2 bg-gradient-to-r from-skybrand-600 to-skybrand-700 hover:from-skybrand-700 hover:to-skybrand-800 text-white font-extrabold text-xs sm:text-sm rounded-xl shadow-md transition">
+            Apply Now
+          </button>
+        </div>
+
+        <div class="flex items-center gap-2 lg:hidden">
+          <button id="mobileMenuToggle" class="touch-target p-2 text-slate-700 rounded-xl hover:bg-slate-100">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MOBILE OFF-CANVAS DRAWER ================= -->
+  <div id="drawerOverlay" class="drawer-overlay fixed inset-0 bg-slate-950/60 z-50 backdrop-blur-sm"></div>
+  <aside id="mobileDrawer" class="mobile-drawer fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-white z-50 shadow-2xl flex flex-col justify-between overflow-y-auto">
+    <div>
+      <div class="p-5 border-b border-slate-100 flex items-center justify-between bg-sky-50/60">
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo.svg" alt="Annai Velankanni Logo" class="w-10 h-10 object-contain">
+          <div>
+            <h4 class="font-display font-bold text-sm text-skybrand-950">Annai Velankanni</h4>
+            <p class="text-[10px] text-skybrand-700 uppercase font-semibold">Matric Hr Sec School</p>
+          </div>
+        </div>
+        <button id="mobileMenuClose" class="p-2 text-slate-500 hover:text-slate-800 rounded-lg touch-target">
+          <i class="fas fa-times text-xl"></i>
+        </button>
+      </div>
+
+      <nav class="p-4 space-y-1.5">
+        <a href="index.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-700 hover:bg-slate-50">
+          <i class="fas fa-home w-5 text-slate-400"></i> Home
+        </a>
+        <a href="about.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-bold text-skybrand-700 bg-sky-100/70">
+          <i class="fas fa-school w-5 text-skybrand-600"></i> About Us
+        </a>
+        <a href="academics.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-700 hover:bg-slate-50">
+          <i class="fas fa-book-open w-5 text-slate-400"></i> Academics & Wings
+        </a>
+        <a href="facilities.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-700 hover:bg-slate-50">
+          <i class="fas fa-flask w-5 text-slate-400"></i> Facilities & Transport
+        </a>
+        <a href="admissions.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-700 hover:bg-slate-50">
+          <i class="fas fa-id-card w-5 text-slate-400"></i> Admissions 2025-26
+        </a>
+        <a href="gallery.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-700 hover:bg-slate-50">
+          <i class="fas fa-images w-5 text-slate-400"></i> Gallery
+        </a>
+        <a href="contact.html" class="flex items-center gap-3 px-4 py-3 rounded-xl font-semibold text-slate-700 hover:bg-slate-50">
+          <i class="fas fa-map-marked-alt w-5 text-slate-400"></i> Contact & Location
+        </a>
+      </nav>
+    </div>
+
+    <div class="p-4 border-t border-slate-100 bg-slate-50 text-xs text-slate-500">
+      <div class="flex items-center gap-2 text-slate-700 font-bold mb-1">
+        <i class="fas fa-phone text-sun-500"></i> +91 99653 08401
+      </div>
+      <div>Sivagamipuram, Pavoorchatram, Tenkasi – 627808</div>
+    </div>
+  </aside>
+
+  <!-- ================= BANNER ================= -->
+  <section class="bg-gradient-to-br from-skybrand-950 via-slate-900 to-skybrand-900 text-white py-14 sm:py-20 relative text-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <span class="text-xs font-bold text-sun-400 uppercase tracking-widest bg-white/10 px-3 py-1 rounded-full border border-white/20">
+        Our Heritage & Leadership
+      </span>
+      <h1 class="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl text-white mt-3">
+        About Annai Velankanni School
+      </h1>
+      <p class="text-slate-300 max-w-2xl mx-auto mt-3 text-base sm:text-lg">
+        Established in 2004 with a mission to deliver transformative, values-based English medium education in Pavoorchatram, Tenkasi District.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= OUR STORY & ACTUAL CAMPUS ================= -->
+  <section class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-sky-100 text-skybrand-800 text-xs font-bold rounded-md uppercase">
+            Two Decades of Distinction (2004 – Present)
+          </div>
+          <h2 class="font-display font-extrabold text-2xl sm:text-3xl md:text-4xl text-slate-900">
+            A Journey of Faith, Knowledge & Character
+          </h2>
+          <p class="text-slate-600 leading-relaxed text-base">
+            In 2004, <strong>Annai Velankanni Matriculation Higher Secondary School</strong> was founded in Sivagamipuram, Pavoorchatram. Built with a vision to provide world-class English medium education within reach of families in the Tenkasi and Tirunelveli rural regions, the institution has grown into an acclaimed center of scholastic rigor and moral nurturing.
+          </p>
+          <p class="text-slate-600 leading-relaxed">
+            From our iconic 4-storey azure campus to our extensive playgrounds and advanced labs, every facet of our campus is designed to unlock each child's potential. Recognized under the Tamil Nadu Matriculation Board (UDISE: 33290704117), our alumni have secured seats in premier medical colleges, top engineering institutes, chartered accountancy firms, and civil services.
+          </p>
+
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div class="p-3 bg-slate-50 rounded-2xl border border-slate-200">
+              <span class="text-[10px] font-bold text-slate-500 uppercase">UDISE Code</span>
+              <h4 class="font-extrabold text-slate-900 mt-0.5">33290704117</h4>
+              <p class="text-[11px] text-slate-500">Keelapavoor Block</p>
+            </div>
+            <div class="p-3 bg-slate-50 rounded-2xl border border-slate-200">
+              <span class="text-[10px] font-bold text-slate-500 uppercase">Students</span>
+              <h4 class="font-extrabold text-skybrand-700 mt-0.5">1,243</h4>
+              <p class="text-[11px] text-slate-500">Pre-KG to Class 12</p>
+            </div>
+            <div class="p-3 bg-slate-50 rounded-2xl border border-slate-200">
+              <span class="text-[10px] font-bold text-slate-500 uppercase">Faculty</span>
+              <h4 class="font-extrabold text-emerald-700 mt-0.5">28</h4>
+              <p class="text-[11px] text-slate-500">Certified Mentors</p>
+            </div>
+            <div class="p-3 bg-slate-50 rounded-2xl border border-slate-200">
+              <span class="text-[10px] font-bold text-slate-500 uppercase">Classrooms</span>
+              <h4 class="font-extrabold text-sun-600 mt-0.5">39 + 9</h4>
+              <p class="text-[11px] text-slate-500">48 Rooms in Total</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="relative">
+            <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+              <img src="assets/images/campus-rainbow.jpg" 
+                   alt="Annai Velankanni Campus Building under Rainbow" 
+                   class="w-full h-80 sm:h-96 object-cover">
+            </div>
+            <div class="absolute -bottom-6 -left-4 sm:left-6 bg-skybrand-900 text-white p-5 rounded-2xl shadow-xl max-w-xs border-2 border-white">
+              <div class="text-3xl font-extrabold font-display text-sun-400">2004</div>
+              <p class="text-xs font-bold uppercase tracking-wider mt-1 text-slate-200">Year Founded in Sivagamipuram</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= PRINCIPAL & REVEREND SISTER TRIBUTE ================= -->
+  <section class="py-16 sm:py-24 bg-slate-50 border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Image of Reverend Sister & Students -->
+        <div class="lg:col-span-6">
+          <div class="rounded-3xl overflow-hidden shadow-xl border-4 border-white img-zoom-container">
+            <img src="assets/images/farewell-celebration.jpg" 
+                 alt="Reverend Sister / Principal with Staff and Students at Farewell Day" 
+                 data-lightbox-src="assets/images/farewell-celebration.jpg"
+                 data-caption="Valedictory & Farewell Ceremony: Honoring Reverend Sister / Principal and Faculty"
+                 class="w-full h-80 sm:h-96 object-cover cursor-pointer">
+          </div>
+          <p class="text-center text-xs text-slate-500 mt-3 font-medium">
+            Graduation & Farewell Celebration: Students honoring Reverend Sister / Principal and teaching faculty
+          </p>
+        </div>
+
+        <!-- Leadership Desk Text -->
+        <div class="lg:col-span-6 space-y-5">
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-amber-100 text-sun-600 text-xs font-bold rounded-md uppercase">
+            From the Principal & Management Desk
+          </div>
+          <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-slate-900">
+            Nurturing Hearts with Compassion, Leading Minds with Vision
+          </h2>
+          <div class="text-slate-600 text-sm sm:text-base leading-relaxed space-y-4 italic">
+            <p>
+              "At Annai Velankanni Matriculation Higher Secondary School, we consider education a sacred calling. Our teachers and sisters work hand-in-hand to ensure that every student who enters our gates receives unconditional guidance, moral strength, and academic discipline."
+            </p>
+            <p>
+              "When our students leave our portals after the 12th standard, they do so not merely with excellent board exam marksheets, but with upright character, gratitude towards their parents, and confidence to make a mark in the wider world."
+            </p>
+          </div>
+          <div class="pt-2 flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full bg-skybrand-700 text-white flex items-center justify-center font-bold text-xl">
+              <i class="fas fa-cross"></i>
+            </div>
+            <div>
+              <h5 class="font-bold text-slate-900 text-sm">Reverend Sister & Management</h5>
+              <p class="text-xs text-slate-500">Annai Velankanni Educational Community</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= MARIAN SPIRITUAL HERITAGE ================= -->
+  <section class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-6 space-y-5">
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-amber-100 text-sun-600 text-xs font-bold rounded-md uppercase">
+            Spiritual Patroness & Mountain Vista
+          </div>
+          <h2 class="font-display font-extrabold text-2xl sm:text-3xl md:text-4xl text-slate-900">
+            Guided by Our Lady of Good Health
+          </h2>
+          <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+            Perched atop our campus entrance overlooking the lush rural greenery of Sivagamipuram stands the golden shrine of <strong>Our Lady of Good Health (Annai Velankanni)</strong>. Behind the shrine rise the majestic, mist-kissed ridges of the Western Ghats mountain range of Tenkasi.
+          </p>
+          <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+            This serene spiritual presence serves as a daily blessing for students of all faiths and backgrounds, instilling values of peace, maternal compassion, selfless service, and pursuit of wisdom.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-2">
+            <div class="p-4 bg-sky-50 rounded-2xl border border-sky-100">
+              <div class="text-skybrand-700 font-extrabold text-lg"><i class="fas fa-dove mr-1"></i> Inclusive Ethos</div>
+              <p class="text-xs text-slate-600 mt-1">Welcoming students of all communities with equal love and dignity</p>
+            </div>
+            <div class="p-4 bg-amber-50 rounded-2xl border border-amber-100">
+              <div class="text-sun-600 font-extrabold text-lg"><i class="fas fa-mountain-sun mr-1"></i> Western Ghats</div>
+              <p class="text-xs text-slate-600 mt-1">Scenic, serene setting conducive to deep learning and reflection</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white img-zoom-container cursor-pointer"
+               data-lightbox-src="assets/images/shrine-mountain-view.jpg"
+               data-caption="Annai Velankanni Golden Shrine with the Western Ghats mountain backdrop overlooking the school">
+            <img src="assets/images/shrine-mountain-view.jpg" 
+                 alt="Mother Mary Annai Velankanni Golden Shrine with Western Ghats Mountain Backdrop" 
+                 class="w-full h-80 sm:h-96 object-cover">
+          </div>
+          <p class="text-center text-xs text-slate-500 mt-3 font-medium">
+            Mother Mary Shrine with Western Ghats mountains overlooking Annai Velankanni School campus
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OUR DEDICATED FACULTY & BATCHES ================= -->
+  <section class="py-16 sm:py-24 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="badge-verified px-3 py-1 rounded-md text-xs font-bold inline-block">
+          Mentorship & Brotherhood
+        </span>
+        <h2 class="font-display font-extrabold text-2xl sm:text-3xl md:text-4xl text-slate-900 mt-2">
+          Our Educational Family & Mentors
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Our teaching faculty and sisters combine decades of academic expertise with motherly affection and moral discipline.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+        
+        <div class="bento-card overflow-hidden shadow-lg p-6 flex flex-col justify-between">
+          <div>
+            <div class="rounded-2xl overflow-hidden mb-4 img-zoom-container cursor-pointer"
+                 data-lightbox-src="assets/images/students-sister-faculty.jpg"
+                 data-caption="Student Batch in Checkered Uniform with Reverend Sister and Faculty">
+              <img src="assets/images/students-sister-faculty.jpg" alt="Student Batch with Reverend Sister" class="w-full h-64 object-cover">
+            </div>
+            <span class="text-xs font-bold text-skybrand-700 uppercase">Values & Leadership</span>
+            <h4 class="font-display font-bold text-xl text-slate-900 mt-1">Reverend Sister with Student Batch</h4>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mt-2">
+              Every student is known personally by our management and teachers, ensuring individual academic guidance and moral mentorship throughout their formative years.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-semibold">
+            <span>Checkered Blue & White Uniform</span>
+            <i class="fas fa-user-graduate text-skybrand-600"></i>
+          </div>
+        </div>
+
+        <div class="bento-card overflow-hidden shadow-lg p-6 flex flex-col justify-between">
+          <div>
+            <div class="rounded-2xl overflow-hidden mb-4 img-zoom-container cursor-pointer"
+                 data-lightbox-src="assets/images/school-celebration-assembly.jpg"
+                 data-caption="Festive Assembly Gathering: Students and Teachers celebrating milestone days">
+              <img src="assets/images/school-celebration-assembly.jpg" alt="Assembly Hall Celebration" class="w-full h-64 object-cover">
+            </div>
+            <span class="text-xs font-bold text-rose-600 uppercase">Assembly & Fellowship</span>
+            <h4 class="font-display font-bold text-xl text-slate-900 mt-1">Community Celebrations & Assemblies</h4>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mt-2">
+              From morning assemblies and festive celebrations to graduation milestones, our students foster lasting friendships and team camaraderie.
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-semibold">
+            <span>Celebration Assembly Hall</span>
+            <i class="fas fa-cake-candles text-rose-500"></i>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= VISION, MISSION & MOTTO ================= -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="bento-card p-8 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 bg-sky-100 text-skybrand-700 rounded-2xl flex items-center justify-center text-xl font-bold mb-4">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Our Vision</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              To be a beacon of scholastic and moral excellence that transforms students into intellectually vibrant, morally upright, and socially empathetic global citizens.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-bold text-skybrand-700">
+            Inspiring Lifelong Learners
+          </div>
+        </div>
+
+        <div class="bento-card p-8 flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 bg-amber-100 text-sun-500 rounded-2xl flex items-center justify-center text-xl font-bold mb-4">
+              <i class="fas fa-bullseye"></i>
+            </div>
+            <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Our Mission</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              To provide accessible, high-standard English medium schooling through interactive pedagogy, individual child mentoring, advanced laboratory work, and athletic vigor.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-bold text-sun-600">
+            Commitment to Excellence
+          </div>
+        </div>
+
+        <div class="bento-card p-8 bg-gradient-to-br from-skybrand-950 to-slate-900 text-white flex flex-col justify-between shadow-xl">
+          <div>
+            <div class="w-12 h-12 bg-sun-400 text-slate-950 rounded-2xl flex items-center justify-center text-xl font-bold mb-4">
+              <i class="fas fa-gem"></i>
+            </div>
+            <h3 class="font-display font-bold text-xl text-white mb-2">Our Motto</h3>
+            <p class="text-sun-400 font-display font-bold text-base mb-2">
+              "Truth • Wisdom • Excellence • Discipline"
+            </p>
+            <p class="text-slate-300 text-xs leading-relaxed">
+              Four timeless pillars that guide each morning assembly prayer, lecture, laboratory experiment, and sports competition at Annai Velankanni.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-white/20 text-xs font-bold text-sun-300">
+            Bedrock of Character
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-skybrand-950 text-slate-400 pt-16 pb-12 border-t border-sky-900 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 mb-12">
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <img src="assets/images/logo.svg" alt="Annai Velankanni Crest" class="w-12 h-12 object-contain">
+            <div>
+              <h4 class="font-display font-extrabold text-white text-base">ANNAI VELANKANNI</h4>
+              <p class="text-xs text-sun-400 font-semibold uppercase">Matric Hr Sec School</p>
+            </div>
+          </div>
+          <p class="text-xs leading-relaxed text-slate-400">
+            South Street, Avudayanoor Road, Sivagamipuram, Pavoorchatram, Tenkasi District, Tamil Nadu – 627808.
+          </p>
+          <div class="text-xs text-sky-300">
+            <strong>UDISE Code:</strong> 33290704117
+          </div>
+        </div>
+
+        <div class="lg:col-span-4 space-y-3">
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider font-display">Navigation</h5>
+          <ul class="space-y-2 text-xs">
+            <li><a href="index.html" class="hover:text-sky-300">Home</a></li>
+            <li><a href="about.html" class="hover:text-sky-300 font-bold text-white">About Us</a></li>
+            <li><a href="academics.html" class="hover:text-sky-300">Academics & Wings</a></li>
+            <li><a href="facilities.html" class="hover:text-sky-300">Facilities & Transport</a></li>
+            <li><a href="admissions.html" class="hover:text-sky-300">Admissions 2025-26</a></li>
+            <li><a href="contact.html" class="hover:text-sky-300">Contact & Map</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4 space-y-3">
+          <h5 class="text-white font-bold text-sm uppercase tracking-wider font-display">Contact Us</h5>
+          <div class="text-xs space-y-2">
+            <p><i class="fas fa-phone text-sun-400 mr-2"></i> +91 99653 08401</p>
+            <p><i class="fas fa-phone text-sun-400 mr-2"></i> +91 94424 08401</p>
+            <p><i class="fab fa-youtube text-red-500 mr-2"></i> YouTube: AVM STARS (@Avmstars2025)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-sky-900 text-center text-xs text-slate-500">
+        © 2025–2026 Annai Velankanni Matriculation Higher Secondary School. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Fixed Mobile Bottom Bar -->
+  <div class="mobile-bottom-bar md:hidden fixed bottom-0 left-0 right-0 z-40 px-2 py-2 flex items-center justify-around">
+    <a href="tel:+919965308401" class="flex flex-col items-center justify-center p-1 text-slate-700 flex-1 touch-target">
+      <i class="fas fa-phone-alt text-skybrand-600 text-lg"></i>
+      <span class="text-[10px] font-bold mt-1">Call</span>
+    </a>
+    <a href="https://wa.me/919965308401" target="_blank" rel="noopener" class="flex flex-col items-center justify-center p-1 text-slate-700 flex-1 touch-target">
+      <i class="fab fa-whatsapp text-emerald-600 text-xl"></i>
+      <span class="text-[10px] font-bold mt-1">WhatsApp</span>
+    </a>
+    <button data-modal-target="admissionModal" class="flex flex-col items-center justify-center p-1 text-skybrand-700 flex-1 touch-target">
+      <i class="fas fa-graduation-cap text-skybrand-600 text-lg"></i>
+      <span class="text-[10px] font-bold mt-1">Apply</span>
+    </button>
+    <a href="https://maps.app.goo.gl/pSm4ygHX89vAKJ659" target="_blank" rel="noopener" class="flex flex-col items-center justify-center p-1 text-slate-700 flex-1 touch-target">
+      <i class="fas fa-map-marker-alt text-red-500 text-lg"></i>
+      <span class="text-[10px] font-bold mt-1">Map</span>
+    </a>
+  </div>
+
+  <!-- Admission Modal -->
+  <div id="admissionModal" class="modal-container hidden fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative my-8">
+      <button data-modal-close class="absolute top-5 right-5 p-2 text-slate-400 hover:text-slate-700">
+        <i class="fas fa-times text-lg"></i>
+      </button>
+      <div class="flex items-center gap-3 mb-6 pb-4 border-b border-slate-100">
+        <img src="assets/images/logo.svg" alt="Emblem" class="w-12 h-12 object-contain">
+        <div>
+          <h3 class="font-display font-extrabold text-xl text-skybrand-950">Admission Enquiry</h3>
+          <p class="text-xs text-slate-500">Annai Velankanni School 2025–26</p>
+        </div>
+      </div>
+      <form class="admission-form space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Student's Full Name *</label>
+          <input type="text" name="studentName" required class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
+        </div>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Class *</label>
+            <select name="grade" required class="w-full px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="KG">Kindergarten</option>
+              <option value="Primary">Primary (1-5)</option>
+              <option value="Middle">Middle (6-8)</option>
+              <option value="High School">High School (9-10)</option>
+              <option value="Higher Secondary">Higher Sec (+1/+2)</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone Number *</label>
+            <input type="tel" name="phone" required pattern="[0-9]{10}" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-sky-500">
+          </div>
+        </div>
+        <button type="submit" class="w-full py-3.5 bg-skybrand-600 hover:bg-skybrand-700 text-white font-bold rounded-xl shadow">
+          Submit Enquiry
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="imageLightbox" class="lightbox fixed inset-0 z-50 bg-slate-950/95 flex items-center justify-center p-4">
+    <div class="lightbox-backdrop absolute inset-0"></div>
+    <button id="lightboxClose" aria-label="Close" class="absolute top-6 right-6 text-white/70 hover:text-white text-2xl z-20 touch-target"><i class="fas fa-times"></i></button>
+    <button id="lightboxPrev" aria-label="Previous" class="absolute left-4 top-1/2 -translate-y-1/2 text-white/70 hover:text-white text-3xl z-20 touch-target p-3"><i class="fas fa-chevron-left"></i></button>
+    <button id="lightboxNext" aria-label="Next" class="absolute right-4 top-1/2 -translate-y-1/2 text-white/70 hover:text-white text-3xl z-20 touch-target p-3"><i class="fas fa-chevron-right"></i></button>
+    <div class="relative z-10 max-w-4xl max-h-[85vh] flex flex-col items-center">
+      <img id="lightboxImage" src="" alt="" class="max-h-[75vh] w-auto max-w-full rounded-2xl object-contain shadow-2xl">
+      <p id="lightboxCaption" class="text-slate-300 text-sm text-center mt-4 font-medium px-4"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
