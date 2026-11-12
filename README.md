@@ -41,7 +41,7 @@ Built with modern semantic HTML5, Tailwind CSS, FontAwesome icons, and lightweig
 - `academics.html` — 5 Learning Wings, State Board Toppers, Group 1/2/3 Streams, Compulsory Martial Arts & Penmanship Standards, Academic FAQs.
 - `facilities.html` — 48 rooms (39 classrooms + 9 labs), 24 restrooms, DigiBoards, Science Labs, 1:1 IT Lab, 5-route Bus Network.
 - `admissions.html` — Admissions 2026–2027 Guidelines, 4-Step Enrollment, Official Posters, Sacred Uniform Guide, and Full 16 Norms of Rules & Discipline.
-- `gallery.html` — 23 authentic campus photographs, achievers posters, and official student diary documents with interactive Lightbox zoom.
+- `gallery.html` — 22 authentic campus photographs and official achievers posters with interactive Lightbox zoom.
 - `contact.html` — Comprehensive postal address, telephone contacts, YouTube link, GPS coordinates, interactive map embed, and enquiry form.
 
 ---
@@ -70,3 +70,4 @@ http://localhost:3000
 - **Phone:** +91 99653 08401 / +91 94424 08401
 - **YouTube:** [@Avmstars2025](https://www.youtube.com/@Avmstars2025)
 - **Google Maps:** [https://maps.app.goo.gl/pSm4ygHX89vAKJ659](https://maps.app.goo.gl/pSm4ygHX89vAKJ659)
+
